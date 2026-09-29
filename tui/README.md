@@ -52,6 +52,7 @@ tui.start();
 
 ## Core API
 
+
 ### TUI
 
 Main container that manages components and rendering.
@@ -70,7 +71,7 @@ tui.onDebug = () => console.log("Debug triggered");
 
 ### Overlays
 
-Overlays render components on top of existing content without replacing it. Useful for dialogs, menus, and modal UI.
+Overlays render components on top of existing content without replacing it. Useful for dialogs, menus, and modal UI..
 
 ```typescript
 // Show overlay with default options (centered, max 80 cols)
@@ -94,6 +95,7 @@ const handle = tui.showOverlay(component, {
   // Percentage-based positioning (alternative to anchor)
   row: "25%",             // Vertical position (0%=top, 100%=bottom)
   col: "50%",             // Horizontal position (0%=left, 100%=right)
+
 
   // Absolute positioning (overrides anchor/percent)
   row: 5,                 // Exact row position
